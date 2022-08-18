@@ -1,0 +1,82 @@
+body{
+    background-color: #dc143ca9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    font-size: 62.5%;
+    margin: 0;
+}
+#container{
+max-width: 600px;
+margin: 0 auto;
+padding-top: 20px;
+}
+.square{
+    width: 30%;
+    background-color: #ffdab9;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition: background .5s;
+}
+
+h1{
+    color: white;
+    background-color: rgb(246, 143, 163);
+    font-size: 3.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0;
+}
+#color-display{
+    display:block;
+    font-size: 2em;
+}
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+#message{
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 20%;
+    
+}
+
+button{
+    outline: none;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background-color: aliceblue;
+    height: 100%;
+    letter-spacing: 1px;
+    transition: all 0.3;
+    -webkit-transition: all 0.3;
+    -moz-transition: all 0.3;
+    -o-transition: all 0.3;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.selected{
+    background-color: antiquewhite;
+    color: aliceblue;
+}
+
+.square{
+    border-radius: 20%;
+}
+
+*{
+    border: 0px solid red;
+}
